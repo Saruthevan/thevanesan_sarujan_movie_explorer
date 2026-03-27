@@ -5,7 +5,7 @@ import 'detail_screen.dart';
 import 'search_screen.dart'; 
 import 'favorites_screen.dart';
 import '../widgets/movie_image.dart';
-
+// ajout commentaire pour la PR 
 class MovieListScreen extends StatefulWidget {
   const MovieListScreen({super.key});
 
@@ -58,7 +58,7 @@ class _MovieListScreenState extends State<MovieListScreen> {
       appBar: AppBar(
         title: const Text('Movie Explorer',
         style:  TextStyle(
-                  fontSize: 35,
+                  fontSize: 35,  
                   fontWeight: FontWeight.bold,),
         ),
         centerTitle: true, 
