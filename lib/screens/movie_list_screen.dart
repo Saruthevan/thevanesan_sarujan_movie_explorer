@@ -56,7 +56,11 @@ class _MovieListScreenState extends State<MovieListScreen> {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 47, 47, 49),
       appBar: AppBar(
-        title: const Text('Movie Explorer'),
+        title: const Text('Movie Explorer',
+        style:  TextStyle(
+                  fontSize: 35,
+                  fontWeight: FontWeight.bold,),
+        ),
         centerTitle: true, 
         foregroundColor: const Color.fromARGB(255, 209, 0, 0),
         backgroundColor: const Color.fromARGB(255, 47, 47, 49),

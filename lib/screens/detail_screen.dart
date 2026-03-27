@@ -17,7 +17,6 @@ class DetailScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 47, 47, 49),
       appBar: AppBar(
-        title: Text(movie.title),
         foregroundColor: const Color.fromARGB(255, 63, 60, 60),
         backgroundColor: const Color.fromARGB(255, 47, 47, 49),
         elevation: 0,
